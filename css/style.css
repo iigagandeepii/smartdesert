@@ -27,7 +27,6 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 );
   /* IE6-9 */
 }
-
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -1239,6 +1238,14 @@ h3 {
   background-position: center;
 }
 
+
+/*slider-info */
+ .slider_info p{
+  background:#ffffff
+   color:#000000
+   padding-bottom:25px;
+}
+
 /* line 10, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_area .single_slider .illastrator_png {
   position: relative;
@@ -1282,6 +1289,8 @@ h3 {
   /* line 29, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_info {
     text-align: center;
+    background:#ffffff
+    color:#000000
   }
 }
 
@@ -1322,6 +1331,12 @@ h3 {
     line-height: 45px;
   }
 }
+
+/*questions-area */
+ .question_area  {
+    padding: 50px 0 25px 175px;
+}
+
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
 .about_area {
@@ -1365,7 +1380,7 @@ h3 {
   /* line 14, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_about.scss */
   .about_area .single_about_info h3 {
     font-size: 25px;
-    line-height: 32px;
+    line-height: 32px; 
   }
 }
 
