@@ -16,16 +16,8 @@
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_extend.scss */
 .header-area .main-header-area.sticky {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a64eee+0,3c35ce+100 */
-  background: #a64eee;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #a64eee 0%, #3c35ce 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #a64eee 0%, #3c35ce 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #a64eee 0%, #3c35ce 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a64eee', endColorstr='#3c35ce',GradientType=1 );
-  /* IE6-9 */
+  background: #ffffff;
+
 }
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
@@ -6686,5 +6678,19 @@ h6 {
   margin-right: 10px;
   font-size: 12px;
 }
+
+/* Scroll bar formatting */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #10879d;
+  width: 0%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
