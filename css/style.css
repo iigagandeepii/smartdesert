@@ -356,7 +356,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn {
-  background: #fff;
+  background:#fff;
   color: #04D2C8;
   display: inline-block;
   padding: 18px 44px;
@@ -367,10 +367,25 @@ h3 {
   border: 1px solid #04D2C8;
   letter-spacing: 3px;
   text-align: center;
-  color: #04D2C8 !important;
+  color: #04D2C8; !important;
   text-transform: uppercase;
   cursor: pointer;
 }
+
+/* modified button gradients*/
+a.browse_button{
+  background-color:#10879D !important;
+  color:#fff;
+}
+a.enroll_button{
+  background-color:#10879D !important;
+  color:#fff;
+}
+a.more_button{
+  background-color:#10879D !important;
+  color:#fff;
+}
+
 
 /* line 17, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed-btn:hover {
@@ -559,7 +574,7 @@ h3 {
   font-size: 16px;
   color: #fff;
   padding: 12px 30px;
-  background: #FDAE5C;
+  background: #10879D;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -574,8 +589,8 @@ h3 {
 /* line 158, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange:hover {
   background: transparent;
-  color: #FDAE5C;
-  border: 1px solid #FDAE5C;
+  color: #10879D;
+  border: 1px solid #10879D;
   color: #FDAE5C !important;
 }
 
@@ -594,15 +609,15 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   background: transparent;
-  color: #FDAE5C;
-  border: 1px solid #FDAE5C;
+  color: #10879D;
+  border: 1px solid #10879D;
   display: inline-block;
 }
 
 /* line 178, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange2:hover {
   color: #fff !important;
-  background: #FDAE5C;
+  background: #10879D;
 }
 
 /* line 2, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
@@ -832,6 +847,7 @@ h3 {
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area {
   padding: 0 150px;
+  background-color:#ffffff;
 }
 
 @media (max-width: 767px) {
@@ -973,7 +989,7 @@ h3 {
 
 /* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: #10879D;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 400;
@@ -1049,7 +1065,7 @@ h3 {
 
 /* line 145, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #fff;
+  color: #10879D;
 }
 
 /* line 149, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
