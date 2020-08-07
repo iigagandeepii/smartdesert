@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5 {
   font-family: "Poppins", sans-serif;
   color: #2E004B;
 }
+ .slider_info h2{
+   color:#fff;
+ }
 
 /* line 42, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_reset.scss */
 h1 a,
@@ -514,7 +517,7 @@ a.more_button{
   font-size: 16px;
   color: #fff;
   padding: 17px 50px;
-  background: #04D2C8;
+  background:linear-gradient(to left,#1EAC98,#10879D);
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -540,7 +543,7 @@ a.more_button{
   font-size: 16px;
   color: #fff;
   padding: 17px 50px;
-  background: transparent;
+  background:linear-gradient(to left,#1EAC98,#10879D);
   color: #04D2C8;
   border: 1px solid #04D2C8 !important;
   -webkit-border-radius: 30px;
@@ -566,7 +569,7 @@ a.more_button{
   font-size: 16px;
   color: #fff;
   padding: 12px 30px;
-  background: #10879D;
+  background:linear-gradient(to left,#1EAC98,#10879D);
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
@@ -580,7 +583,8 @@ a.more_button{
 
 /* line 158, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_btn.scss */
 .boxed_btn_orange:hover {
-  background: transparent;
+  background:#04D2C8;
+  opacity:0.
   color: #10879D;
   border: 1px solid #10879D;
   color: #FDAE5C !important;
@@ -1235,7 +1239,16 @@ a.more_button{
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image:
+  linear-gradient(to right, rgba(245, 246, 252, 0.52),
+                  rgba(117, 19, 93, 0.73)),
+  url(../img/banner/back3.jpg);
+   width: 100%;
+   background-size: cover;
+   color: white;
+   background-size:cover;
+   padding: 20px;
+ /* background-color:linear-gradient(to right,#65DbD1,#00f);*/
 }
 
 /* line 5, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
@@ -1249,9 +1262,10 @@ a.more_button{
 
 /*slider-info */
  .slider_info p{
-  background:#ffffff
+   background:#ffffff
    color:#000000
    padding-bottom:25px;
+   font-weight:bold;
 }
 
 /* line 10, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
@@ -1660,6 +1674,7 @@ a.more_button{
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
 .footer_bg_1 {
   background-image: url(../img/banner/footer_bg.png);
+  background-color: linear-gradient rgba(x,y,z,o)
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_footer.scss */
@@ -2590,6 +2605,7 @@ a.more_button{
   position: relative;
   margin-bottom: 30px;
   z-index: 0;
+  border-radius: 10px;
 }
 
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
@@ -2648,6 +2664,7 @@ a.more_button{
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
+  border-radius: 10px;
   transition: 0.3s;
   opacity: 0;
   z-index: -1;
