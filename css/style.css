@@ -668,7 +668,7 @@ a.more_button{
 
 /* line 35, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_section_title.scss */
 .mb-100 {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -986,7 +986,7 @@ a.more_button{
 /* line 94, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #10879D;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: capitalize;
   font-weight: 400;
   display: inline-block;
@@ -1240,8 +1240,8 @@ a.more_button{
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image:
-  linear-gradient(to right, rgba(245, 246, 252, 0.52),
-                  rgba(117, 19, 93, 0.73)),
+  linear-gradient(to right, rgba(101, 219, 209, 0.60),
+                  rgba(0, 8, 153, 0.60)),
   url(../img/banner/back3.jpg);
    width: 100%;
    background-size: cover;
@@ -2570,8 +2570,8 @@ a.more_button{
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses {
-  padding-top: 200px;
-  padding-bottom: 170px;
+  padding-top: 70px;
+  padding-bottom: 1=770px;
 }
 
 @media (max-width: 767px) {
@@ -2585,8 +2585,8 @@ a.more_button{
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
   .our_courses {
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 
@@ -3311,7 +3311,7 @@ a.more_button{
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
 .popular_courses {
   padding-top: 60px;
-  padding-bottom: 200px;
+  padding-bottom: 40px;
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
@@ -3490,10 +3490,6 @@ a.more_button{
   transform: scale(1.1);
 }
 
-/* line 112, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
-.popular_courses .more_courses {
-  margin-top: 30px;
-}
 
 /* line 116, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_popular_courses.scss */
 .popular_courses .course_nav .nav {
@@ -6710,3 +6706,27 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* added after 08th august 2020, 1st revison */
+
+.adspace1{
+  background-color: #ffffff;
+  height: 250px;
+  width: 500px;
+}
+
+.headerht{
+  height: 90px;
+}
+
+/* FOR TESTIMONIALS NEW Create two equal columns that floats next to each other */
+.testc {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.testr{
+  padding-bottom: 300px;
+}
