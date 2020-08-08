@@ -2618,6 +2618,7 @@ a.more_button{
 /* line 16, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_coures.scss */
 .our_courses .single_course {
   border: 1px solid #E8E8E8;
+  background-color: rgb(0,0,0,0.6);
   padding: 38px 30px;
   position: relative;
   margin-bottom: 30px;
@@ -6819,4 +6820,62 @@ p, span, h2{
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
 	}
+}
+
+/* Added for additions on 8th Aug 2020 */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+}
+
+.co1, .co2{
+  padding: 50px;
+}
+
+.co1{
+  background: rgb(0,195,168);
+  background: -moz-linear-gradient(86deg, rgba(0,195,168,1) 51%, rgba(5,168,166,1) 100%);
+  background: -webkit-linear-gradient(86deg, rgba(0,195,168,1) 51%, rgba(5,168,166,1) 100%);
+  background: linear-gradient(86deg, rgba(0,195,168,1) 51%, rgba(5,168,166,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c3a8",endColorstr="#05a8a6",GradientType=1);
+}
+
+.co2{
+  background: rgb(5,168,166);
+  background: -moz-linear-gradient(86deg, rgba(5,168,166,1) 51%, rgba(1,103,156,1) 100%);
+  background: -webkit-linear-gradient(86deg, rgba(5,168,166,1) 51%, rgba(1,103,156,1) 100%);
+  background: linear-gradient(86deg, rgba(5,168,166,1) 51%, rgba(1,103,156,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05a8a6",endColorstr="#01679c",GradientType=1);
+}
+
+.fill{
+  color: white;
+  background: black;
+  height: 250px;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.vdofill{
+  color: white;
+  background: black;
+  height: 200px;
+  padding: 10%;
+}
+
+.cname{
+  color: white;
+  background: black;
+  height: 500px;
+  border-radius: 15px;
+  padding: 10%;
+}
+
+.content{
+  color: white;
+  background: black;
+  height: 250px;
+  border-radius: 15px;
+  padding: 10%;
 }
