@@ -6960,4 +6960,10 @@ p, span, h2{
   }
   /* END OF MODIFIED POPULAR COURSES */
 
-  
+  /* Vertical Line */
+  .vertical-line{
+        display: inline-block;
+        border-left: 3px solid lightblue;
+        margin: 0 10px;
+        height: 250px;
+}
